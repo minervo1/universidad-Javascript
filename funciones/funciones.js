@@ -12,10 +12,11 @@ miFuncion(3, 5);
 function miFuncion2(a, b) {
   return a + b;
 }
+//como estamos capturando un valor devuelto por la funcion lo que se suele hacer es capturarlo en una variable en este caso la variable resultado
 const resultado = miFuncion2(2, 7);
 console.log(resultado);
 
-//funciones expresivas
+//funciones expresivas o anonimas
 const x = function (c, d) {
   return c + d;
 };
