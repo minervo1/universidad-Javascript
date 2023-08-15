@@ -51,7 +51,7 @@ if (hora >= 6 && hora <= 11) {
 }
 
 //sentencia switch, es similar a una estructura if, pero se suele utilizar cuando hay varias opciones que hay que comparar.
-//! es inportante agregar el breack ya que el resultado que nos dara no sera el esperado, ademas hay que saber que esta estructura realiza una comparacion esticta
+//! es inportante agregar el breack ya que al ser verdadera algun de los casos queremos que el codigo termine su ejecusion, sin esta sentencia el codigo seguira ejecutandose.
 let numero1 = 2;
 
 switch (numero1) {
@@ -72,7 +72,7 @@ switch (numero1) {
     break;
 }
 
-//ejemplo del mes del año con switch,
+//ejemplo del mes del año con switch, INPORTANTE el tipo de comparacion que realiza esta sentencia 'switch' es estricta. y debemos saber que tambien podemos usar cadenas y no solo numeros.
 let mes1 = 1;
 
 switch (mes1) {

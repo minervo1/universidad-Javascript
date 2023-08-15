@@ -24,7 +24,7 @@ console.log('----------------');
 autos1[1] = 'nissan';
 console.log(autos1[1]); //se ha modificado el valor del elemento
 
-//agregando elementos a un array, existen varias formas de hacerlo, pero solo veremos 2 PUSH, UNSHIFF, LENGTH
+//agregando elementos a un array, existen varias formas de hacerlo, pero solo veremos 2 PUSH, UNSHIFF
 
 //!agrega al final del array
 autos1.push('toyota');
