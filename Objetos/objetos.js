@@ -140,7 +140,7 @@ console.log(stringNombre);
 const nombre = 'nelson ponce';
 console.log(nombre);
 
-//sabemos que para crear una nueva propiedad en la que todos los objetos que creemos puedan acceder a ella debemos crearla en el constructor, sin enbargo hay otra forma de hacerlo sin tener que intervenir directamente el constructor, y para eso usamos la propiedad PROTOTYPE
+//INPORTANTE sabemos que para crear una nueva propiedad en la que todos los objetos que creemos puedan acceder a ella debemos crearla en el constructor, sin enbargo hay otra forma de hacerlo sin tener que intervenir directamente el constructor, y para eso usamos la propiedad PROTOTYPE. esta propiedad ademas nos permite ahorrar espacio en memoria ya que si tenemos alguna funcion que sea igual para todos los tipos de persona que creemos, podemos usar esta propiedad para crear esta funcion y poder ocuparla en todos los objetos. asi nos ahorramos memoria al no tener que crear esta funcion en cada objeto que creemos
 Persona.prototype.telefono = '23423423';
 
 //podemos observar que todos los objetos tienen acceso a esta nueva propiedad
