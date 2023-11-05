@@ -22,7 +22,7 @@ console.log(f);
 let h = a % b;
 console.log(h);
 
-//exponente : 2 * 2 * 2
+//exponente(potencia) : (2 * 2 * 2 ) este operador esta desde la versio ES6 antes de esto se usaba el metodo Math.pow()
 let s = a ** b;
 console.log(s);
 
@@ -30,12 +30,12 @@ console.log(s);
 
 //!Pre-Incremente : el operador ++ va antes de la variable que se quiere aumentar (en 1) y es esta la que aumenta primero para  luego asignar dicha variable a la variable que la contiene.
 let v = ++a;
-console.log(a); //aumenta en 1 la variable a
+console.log(a); //primero aumenta en 1 la variable a
 console.log(v); //y luego se le asigna a su variable contenedora
 
-//!Post-Incremento : el moperador ++ va despues de la variable a la que se le quiere aumentar
+//!Post-Incremento : el operador ++ va despues de la variable a la que se le quiere aumentar
 let q = b++;
-console.log(b); //primero se le asigna la variable a su variable contenedora y luego se incrementa
+console.log(b); //primero se le asigna la variable a su variable contenedora y luego se incrementa, osea la segunda vez que se utiliza es cuando incrementa
 console.log(q); //esto quiere decir que la proxima vez que se utilize la vaiable b se incrementara ya que siempre estara pendiente de incrementarse
 
 //*Decremento
@@ -72,7 +72,6 @@ console.log(z3);
 let z4 = c1 + (a1 * b1) / d1;
 console.log(z4);
 */
-
 /*
 //*operadores de asignacion
 
@@ -83,7 +82,6 @@ console.log(a);
 
 a -= 2; // a = a - 2;
 console.log(a);
-
 
 //!se aplica lo mismo para los demas operadores (*=, /=, %=, **=)
 */
@@ -206,5 +204,3 @@ resultado3 = ((4 + 5) * 6) / 3;
 const hola = 'hola';
 const cal = año => 2012 - año;
 */
-
-console.log('actualizacion de operadores');
