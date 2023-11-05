@@ -186,6 +186,7 @@ if (isNaN(edad)) {
 */
 //* Ejemplo de Precedencia de Operadores
 
+/*
 let x = 5;
 let y = 10;
 //a pesar de que el post-(y--) tiene mayor precedencia que el pre-(++x) de manera predeterminada javascript lee de izquierda a derecha es por eso que primero se realiza el pre-incremento (se realiza primero la suma antes de asignarle a la variable) para luego seguir y disminuir en 1, pero este decremento se realiza despues. es por eso que para la variable Z y sigue siendo 10
@@ -204,3 +205,6 @@ console.log(resultado3); //14
 resultado3 = ((4 + 5) * 6) / 3;
 const hola = 'hola';
 const cal = año => 2012 - año;
+*/
+
+console.log('actualizacion de operadores');
