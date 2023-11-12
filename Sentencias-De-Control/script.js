@@ -5,7 +5,7 @@ let condicion = false;
 if (condicion) console.log('condicion verdadera');
 else console.log('condicion falsa');
 
-//otro ejemplo
+//otro ejemplo, la estructura (else if), siempre debe usarce al tener mas de 2 condiciones si solo hay 2 se usra (if)
 
 let numero = 4;
 if (numero == 1) {
@@ -51,20 +51,20 @@ if (hora >= 6 && hora <= 11) {
 }
 
 //sentencia switch, es similar a una estructura if, pero se suele utilizar cuando hay varias opciones que hay que comparar.
-//! es inportante agregar el breack ya que al ser verdadera algun de los casos queremos que el codigo termine su ejecusion, sin esta sentencia el codigo seguira ejecutandose.
-let numero1 = 2;
+//! es inportante agregar el 'breack' ya que al ser verdadera algun de los casos queremos que el codigo termine su ejecusion, sin esta sentencia el codigo seguira ejecutandose.
+let numero1 = 'numero dos';
 
 switch (numero1) {
-  case 1:
+  case 'numero uno':
     console.log('numero 1');
     break;
-  case 2:
+  case 'numero dos':
     console.log('numero 2');
     break;
-  case 3:
+  case 'numero tres':
     console.log('numero 3');
     break;
-  case 4:
+  case 'numero cuatro':
     console.log('numero 4');
     break;
   default:
@@ -79,7 +79,7 @@ switch (mes1) {
   case 1:
   case 2:
   case 3:
-    console.log('estas e verano');
+    console.log('estas en verano');
     break;
   case 4:
   case 5:
@@ -98,3 +98,9 @@ switch (mes1) {
   default:
     console.log('estacion del año indeterminada');
 }
+
+//veamos ahora el operador ternario una variante mas moderna de la sentencia if-else, pero que solo es utilizable si es que la condicion es una solo. primero definimos la condicion seguido viene un signo de interrogacion y luego el codigo si es que esta es verdadera si no ponemos dos puntos y la condicion si esta es falsa
+const miNumero = 12;
+const resultado =
+  miNumero > 0 ? 'el numero es mayor a cero' : 'el numero es negativo';
+console.log(resultado);
