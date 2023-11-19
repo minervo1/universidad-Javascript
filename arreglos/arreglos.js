@@ -61,3 +61,29 @@ array[2] = 23;
 
 console.log(array);
 console.log(`${array[1]}`);
+
+console.log('-----------------');
+//* ahora veremos el tema de las matricez que en realidad siguen siendo arreglos(anidados), pero 'bidimencionales' osea arreglos dentro de arreglos, para que se entienda mejor un arreglo simple un solo arreglo se le conoce tambien como (vectorial = una sola linea) como lo que tenemos mas arriba ahora veremos los arreglos multidimencionales o matricez. QUE DE HECHO PODEMOS LLARLOS ASI
+
+let array1 = [[], []];
+
+//incorporamos los elementos a los arreglos correspondientes, lo que estamos haciendo es introducir el numero 100 en el primer array especificamente en su posicion cero
+array1[0][0] = 100;
+console.log(array1);
+
+//ahora introducimos el segundo valor dentro del 2 array tambien en su posicion cero
+array1[1][0] = 'hola';
+array1[1][1] = 'loca';
+console.log(array1);
+
+array1[0][1] = 200;
+console.log(array1);
+
+//veamos hoora como podemo recorrer estas matrizes bidimencionales
+for (let i = 0; i < array1.length; i++) {
+  for (let a = 0; a < array1[i].length; a++) {
+    //console.log(array1[i][a]);
+    //para que quede un poco mas claro
+    console.log(`elemento[${i}][${a}] = ${array1[i][a]}`);
+  }
+}
